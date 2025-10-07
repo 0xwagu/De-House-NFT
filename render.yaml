@@ -1,0 +1,11 @@
+services:
+  - type: static_site
+    name: de-house-landing
+    rootDirectory: dg-house-landing
+    buildCommand: yarn install && yarn build
+    publishDir: dist
+    headers:
+      - path: "/*"
+        name: "Cache-Control"
+        value: "public, max-age=300"
+    pullRequestPreviewsEnabled: true
