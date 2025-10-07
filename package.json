@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "cd dg-house-landing && yarn install && yarn build",
-    "start": "cd dg-house-landing && yarn install && yarn start"
+    "build": "cd dg-house-landing && npm ci && npm run build",
+    "start": "cd dg-house-landing && npm ci && npm run start"
   }
 }
