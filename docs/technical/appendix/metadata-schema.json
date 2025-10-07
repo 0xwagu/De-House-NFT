@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cross-Chain Keycard Metadata",
+  "type": "object",
+  "properties": {
+    "keycardId": { "type": "string", "description": "Canonical keycard identifier" },
+    "chain": { "type": "string", "enum": ["solana", "bitcoin", "base", "bnb", "hype", "sui"] },
+    "contractAddress": { "type": "string", "description": "Mint contract or program address (if applicable)" },
+    "tokenId": { "type": "string", "description": "Token id for EVM-based chains" },
+    "mintTx": { "type": "string", "description": "Mint transaction signature or hash" },
+    "owner": { "type": "string", "description": "Wallet address of current owner" },
+    "tier": { "type": "string", "description": "Membership tier (e.g., Builder, Patron)" },
+    "benefits": { "type": "array", "items": { "type": "string" } },
+    "issuedAt": { "type": "string", "format": "date-time" },
+    "metadataURI": { "type": "string", "description": "External metadata URI" }
+  },
+  "required": ["keycardId", "chain", "mintTx", "owner", "tier", "issuedAt"]
+}

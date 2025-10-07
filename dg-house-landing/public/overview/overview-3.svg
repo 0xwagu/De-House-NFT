@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200">
+  <defs>
+    <style>
+      .title{font:800 110px sans-serif;fill:#f2a23a}
+      .subtitle{font:700 34px sans-serif;fill:#e6f2ff}
+      .section{font:800 32px sans-serif;fill:#e9d9b8}
+      .li{font:600 24px sans-serif;fill:#e6f2ff}
+    </style>
+  </defs>
+  <rect width="800" height="1200" fill="#0b2030"/>
+  <text x="60" y="120" class="title">DEHOUSE</text>
+  <text x="60" y="180" class="subtitle">DEMOCRATIZING REAL WORLD ASSET OWNERSHIP THROUGH WEB3</text>
+
+  <text x="60" y="260" class="section">THE PROBLEM</text>
+  <text x="60" y="310" class="li">• High entry barriers requiring substantial capital</text>
+  <text x="60" y="350" class="li">• Illiquidity of physical assets</text>
+  <text x="60" y="390" class="li">• Geographic limitations restricting access to prime locations</text>
+  <text x="60" y="430" class="li">• Complex legal frameworks that vary by jurisdiction</text>
+  <text x="60" y="470" class="li">• Centralized control that excludes community input</text>
+
+  <text x="60" y="550" class="section">THE SOLUTION</text>
+  <text x="60" y="600" class="li">• Enables fractional ownership of physical properties</text>
+  <text x="60" y="640" class="li">• Provides global access to exclusive and tax-advantageous locations</text>
+  <text x="60" y="680" class="li">• Creates transparent governance through DAO structures</text>
+  <text x="60" y="720" class="li">• Generates sustainable revenue through strategic asset monetization</text>
+  <text x="60" y="760" class="li">• Leverages blockchain’s immutable record-keeping for secure tracking</text>
+
+  <!-- stylized border -->
+  <rect x="40" y="220" width="720" height="780" fill="none" stroke="#1a3e5a" stroke-width="14"/>
+</svg>

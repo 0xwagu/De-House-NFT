@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200">
+  <defs>
+    <style>
+      .title{font:800 110px sans-serif;fill:#f2a23a}
+      .shadow{fill:#1a1a1a}
+      .h1{font:800 52px sans-serif;fill:#f9f9f9}
+      .body{font:600 26px/1.5 sans-serif;fill:#e6f2ff}
+      .label{font:700 28px sans-serif;fill:#f2d06b}
+    </style>
+  </defs>
+  <rect width="800" height="1200" fill="#0b2030"/>
+  <text x="76" y="140" class="shadow">DEHOUSE</text>
+  <text x="60" y="120" class="title">DEHOUSE</text>
+  <text x="60" y="210" class="h1">DEMOCRATIZING REAL WORLD ASSET CO-OWNERSHIP THROUGH WEB3</text>
+
+  <rect x="260" y="290" width="280" height="80" rx="12" ry="12" fill="#163852" stroke="#0d2535" stroke-width="6"/>
+  <text x="290" y="342" class="label">MISSION</text>
+
+  <text x="60" y="420" class="body">To break down barriers to real estate ownership by creating a self-sustaining</text>
+  <text x="60" y="460" class="body">treasury of globally distributed properties that provide shared access,</text>
+  <text x="60" y="500" class="body">ownership, and governance to all keycard members.</text>
+
+  <!-- pixel scene -->
+  <rect x="60" y="860" width="120" height="160" fill="#d17b2c"/>
+  <rect x="220" y="820" width="90" height="180" fill="#1b6a8f"/>
+  <rect x="340" y="860" width="120" height="160" fill="#c0392b"/>
+  <rect x="520" y="840" width="160" height="180" fill="#34495e"/>
+  <rect x="60" y="1040" width="620" height="40" fill="#1f3a4d"/>
+</svg>

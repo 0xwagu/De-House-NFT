@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200">
+  <defs>
+    <style>
+      .title{font:700 96px sans-serif;fill:#f2a23a;letter-spacing:2px}
+      .shadow{fill:#2b2b2b}
+      .subtitle{font:700 28px sans-serif;fill:#ffffff}
+      .panel-title{font:700 42px sans-serif;fill:#0b1f2e}
+      .body{font:600 24px/1.5 sans-serif;fill:#e6f2ff}
+      .cap{font:700 18px sans-serif;fill:#a0d8ff}
+    </style>
+  </defs>
+  <rect x="0" y="0" width="800" height="1200" fill="#0f2b3f"/>
+  <!-- Title with simple pixel-like shadow -->
+  <text x="90" y="130" class="shadow">DeHouse</text>
+  <text x="80" y="120" class="title">DeHouse</text>
+  <text x="60" y="190" class="subtitle">DEMOCRATIZING REAL WORLD ASSET OWNERSHIP THROUGH WEB3</text>
+
+  <!-- Overview banner -->
+  <rect x="80" y="230" rx="12" ry="12" width="640" height="70" fill="#e9d9b8" stroke="#2e2e2e" stroke-width="6"/>
+  <text x="275" y="278" class="panel-title">OVERVIEW</text>
+
+  <!-- split panel -->
+  <rect x="40" y="340" width="720" height="780" fill="#134e6a" stroke="#0a3245" stroke-width="10"/>
+  <rect x="60" y="360" width="380" height="740" fill="#0e3e57" stroke="#0a3245" stroke-width="6"/>
+  <text x="80" y="410" class="body">
+DeHouse is a decentralized autonomous organization (DAO)
+  </text>
+  <text x="80" y="450" class="body">designed to democratize access to real-world assets (RWAs)</text>
+  <text x="80" y="490" class="body">through blockchain technology.</text>
+  <text x="80" y="550" class="body">Members hold NFT keycards that grant access, rights,</text>
+  <text x="80" y="590" class="body">and governance within a global property network.</text>
+
+  <!-- simple city and character illustration -->
+  <rect x="470" y="380" width="220" height="260" fill="#1b6a8f"/>
+  <rect x="490" y="420" width="60" height="80" fill="#0f2b3f"/>
+  <rect x="560" y="420" width="60" height="80" fill="#0f2b3f"/>
+  <rect x="630" y="420" width="40" height="160" fill="#0f2b3f"/>
+  <rect x="520" y="680" width="200" height="160" fill="#d17b2c"/>
+  <rect x="540" y="720" width="40" height="60" fill="#0f2b3f"/>
+
+  <!-- person -->
+  <circle cx="560" cy="820" r="40" fill="#f2a23a"/>
+  <rect x="520" y="860" width="80" height="120" fill="#2a9d8f"/>
+  <rect x="540" y="980" width="40" height="80" fill="#0f2b3f"/>
+  <!-- keycard -->
+  <rect x="620" y="860" width="70" height="90" fill="#e9d9b8" stroke="#2e2e2e" stroke-width="4"/>
+  <polygon points="655,895 640,910 670,910" fill="#f2a23a"/>
+
+  <text x="400" y="1120" text-anchor="middle" class="cap">Overview: DAO-powered fractional access to RWAs with NFT keycards</text>
+</svg>
