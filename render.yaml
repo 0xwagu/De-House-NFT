@@ -2,8 +2,13 @@ services:
   - type: static_site
     name: de-house-landing
     rootDirectory: dg-house-landing
-    buildCommand: yarn install && yarn build
+    buildCommand: npm ci && npm run build
     publishDir: dist
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 20
     headers:
       - path: "/*"
         name: "Cache-Control"
