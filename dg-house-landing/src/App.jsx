@@ -13,9 +13,9 @@ function App() {
   const triggerButtonRef = useRef(null)
   const closeButtonRef = useRef(null)
   const carouselImages = [
-    { src: '/logo-animation.gif', alt: 'DG logo animation' },
-    { src: '/d-animation.gif', alt: 'Animated D graphic' },
-    { src: '/favicon.ico', alt: 'DG favicon' },
+    { src: '/doc1.png', alt: 'Documentation image 1' },
+    { src: '/doc2.png', alt: 'Documentation image 2' },
+    { src: '/doc3.png', alt: 'Documentation image 3' },
   ]
   
   const rotatingTexts = ['Maker Space', 'Creator Space', 'Hacker House', 'Revolution']
