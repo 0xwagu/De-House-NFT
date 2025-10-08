@@ -79,7 +79,7 @@ function App() {
       />
 
       {/* Main Container */}
-      <div className="relative min-h-screen flex flex-col items-center justify-center px-4 z-10">
+      <div className="relative min-h-screen flex flex-col items-center justify-start md:justify-center px-4 z-10">
         
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
@@ -142,7 +142,7 @@ function App() {
           {/* 3D Model Viewer */}
           <div className="mb-12">
             <div className="flex justify-center">
-              <div className="relative group/house w-[400px] h-[400px]">
+              <div className="relative group/house w-[320px] h-[320px] sm:w-[400px] sm:h-[400px]">
                 <Model3DViewer 
                   modelUrl="/Dehouse.glb" 
                   className="transition-all duration-500 group-hover/house:scale-105"
@@ -177,7 +177,7 @@ function App() {
         </div>
 
         {/* Footer */}
-        <div className="absolute bottom-0 left-0 right-0 flex flex-col md:flex-row justify-between items-center px-8 py-4 text-sm text-white/60 space-y-4 md:space-y-0">
+        <div className="md:absolute bottom-0 left-0 right-0 flex flex-col md:flex-row justify-between items-center px-8 py-4 text-sm text-white/60 space-y-4 md:space-y-0 mt-8 md:mt-0">
           <div className="transition-colors duration-300 hover:text-white/80">WAGU LABS © COPYRIGHT 2025</div>
           <div className="flex space-x-6">
             <a href="#" className="hover:text-white transition-all duration-300 hover:scale-110 group">
