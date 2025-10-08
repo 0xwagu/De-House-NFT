@@ -18,7 +18,7 @@ function App() {
     { src: '/doc3.png', alt: 'Documentation image 3' },
   ]
   
-  const rotatingTexts = ['Maker Space', 'Creator Space', 'Hacker House', 'Revolution']
+  const rotatingTexts = ['Maker Space', 'Creator Space', 'Hacker House', 'Revolution', 'Web3 Airbnb']
 
   useEffect(() => {
     setIsLoaded(true)
