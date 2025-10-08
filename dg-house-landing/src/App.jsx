@@ -133,11 +133,9 @@ function App() {
             <a href="#" className="hover:text-white transition-all duration-300 hover:scale-110 group">
               <Instagram size={20} className="group-hover:text-pink-400" />
             </a>
-            {/*
             <a href="https://x.com/WaguLabs" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-all duration-300 hover:scale-110 group">
               <Twitter size={20} className="group-hover:text-blue-400" />
             </a>
-            */}
           </div>
         </div>
       </div>
