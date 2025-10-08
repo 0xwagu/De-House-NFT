@@ -4,6 +4,6 @@
   "version": "0.0.0",
   "scripts": {
     "build": "npm install --legacy-peer-deps --prefix dg-house-landing && npm run build --prefix dg-house-landing",
-    "start": "npm install --legacy-peer-deps --prefix dg-house-landing && npm run start --prefix dg-house-landing"
+    "start": "npm install --legacy-peer-deps --include=dev --prefix dg-house-landing && npm run start --prefix dg-house-landing"
   }
 }
