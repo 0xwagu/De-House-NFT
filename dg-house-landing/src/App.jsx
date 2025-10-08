@@ -66,7 +66,7 @@ function App() {
   }, [isModalOpen, carouselImages.length])
 
   return (
-    <div className="min-h-screen bg-black text-white overflow-hidden relative">
+    <div className="min-h-screen bg-black text-white overflow-x-hidden overflow-y-auto relative">
       {/* Interactive cursor glow */}
       <div 
         className="fixed w-96 h-96 pointer-events-none z-0 opacity-20"
@@ -82,7 +82,7 @@ function App() {
       <div className="relative min-h-screen flex flex-col items-center justify-start md:justify-center px-4 z-10">
         
         {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg opacity-20 animate-pulse animate-float"></div>
           <div className="absolute top-3/4 right-1/4 w-24 h-24 bg-gradient-to-r from-pink-400 to-purple-500 rounded-lg opacity-20 animate-pulse animate-float delay-1000"></div>
           <div className="absolute bottom-1/4 left-1/3 w-20 h-20 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-lg opacity-20 animate-pulse animate-float delay-2000"></div>
@@ -120,13 +120,14 @@ function App() {
           </div>
 
           {/* Pre-sale Button */}
-          <div className="mb-20">
+          <div className="mb-20 relative z-20">
             <div>
               <Button 
                 asChild
                 variant="outline" 
                 size="lg"
-                className="bg-transparent text-white border-white/20 hover:!bg-white hover:!text-black px-8 py-7 min-h-14 text-lg font-light tracking-wide group relative rainbow-border-animated"
+                className="bg-transparent text-white border-white/20 hover:!bg-white hover:!text-black px-8 py-7 min-h-14 text-lg font-light tracking-wide group relative rainbow-border-animated pointer-events-auto cursor-pointer"
+                style={{ touchAction: 'manipulation' }}
               >
                 <a href="https://launchmynft.io/collections/Fh9CjFZ3gvFfbNVLViYFxxPNM52XWbYgEeuLp2qoVC2T/nF1cuaIMhOZ7TH6nt3WD" target="_blank" rel="noopener noreferrer">
                   <div className="relative z-10">
@@ -152,7 +153,7 @@ function App() {
               </div>
             </div>
             {/* Help Button below canvas */}
-            <div className="mt-6 flex justify-center">
+            <div className="mt-6 flex justify-center relative z-20">
               <Button
                 ref={triggerButtonRef}
                 onClick={() => setIsModalOpen(true)}
@@ -161,7 +162,8 @@ function App() {
                 aria-haspopup="dialog"
                 aria-controls="helpCarouselModal"
                 aria-expanded={isModalOpen}
-                className="bg-transparent text-white border-white/30 hover:!bg-white hover:!text-black w-10 h-10 rounded-full"
+                className="bg-transparent text-white border-white/30 hover:!bg-white hover:!text-black w-10 h-10 rounded-full pointer-events-auto cursor-pointer"
+                style={{ touchAction: 'manipulation' }}
               >
                 ?
               </Button>
